@@ -29,7 +29,6 @@ html {
 
 .specialty-info {
   width: 100%;
-  height: 1000px;
   background-color: plum;
   margin-top: 100px;
 
@@ -69,5 +68,5 @@ html {
 
 .bottom {
   height: 75px; 
-  background-color: yellow;
+  background-color: #AEC6CF;
 }
