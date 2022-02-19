@@ -7,7 +7,7 @@ function App() {
       <div className='specialty-info'>
         <div className='bridal-party-info'>
           <h3>HELLOO</h3>
-          <p>djfdjfndsjkcndkj</p>
+          <p>yes</p>
         </div>
         <div className='about-me'></div>
         <div className='services'></div>
