@@ -3,7 +3,10 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <div className='header'><h2>SLAYED.BY SUZY STUDIO</h2></div>
+      <nav className='header'>
+        <a className='logo' href='#' ><h3>SLAYED.BY SUZY STUDIO</h3></a>
+      
+      </nav>
       <div className='specialty-info'>
         <div className='bridal-party-info'>
           <h3>HELLOO</h3>

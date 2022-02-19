@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: 'Courier New', monospace;
 
 }
 
@@ -18,13 +19,18 @@ html {
 }
 
 .header {
-  height: 100px;
+  min-height: 100px;
   width: 100%;
   background-color: white;
   display: flex;
   align-items: center;
   padding-left: 10px;
   position: fixed;
+}
+.logo{
+  color: black;
+  text-decoration: none;
+  font-weight: 5px;
 }
 
 .specialty-info {
@@ -36,7 +42,7 @@ html {
 
 .bridal-party-info {
   height:220px;
-  background-image: url('https://parade.com/wp-content/uploads/2020/12/jeremy-wong-weddings-K41SGnGKxVk-unsplash.jpg');
+  background-image: url('https://ae01.alicdn.com/kf/HTB1r6mbOVXXXXc_XXXXq6xXFXXX0/Howmay-silk-chiffon-fabric-4-5m-m-114cm-100-pure-silk-unbleached-white-PFD-fabric-for.jpg');
   background-size: 100%;
   background-blend-mode: lighten;
 
