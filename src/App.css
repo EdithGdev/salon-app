@@ -1,7 +1,6 @@
 * {
   margin: 0;
   font-family: 'Courier New', monospace;
-
 }
 
 html {
@@ -13,9 +12,7 @@ html {
   height: 100vh;
   background-color: pink;
   display: flex;
-
   justify-content: center;
-
 }
 
 .header {
@@ -28,6 +25,7 @@ html {
   position: fixed;
   justify-content: space-between;
 }
+
 .logo{
   color: black;
   text-decoration: none;
@@ -43,12 +41,12 @@ a {
   text-decoration: none;
 }
 
-
 .menu {
   position: fixed;
   left: -100%;
   top: 70px;
   gap: 0;
+  background-color: red;
   flex-direction: column;
   width: 100%;
   text-align: center;
@@ -58,17 +56,12 @@ a {
 menu.active {
   left: 0;
 }
+
 .nav-item {
   margin: 16px;
 }
 
-/* Media query change to bigger screen */
-/* .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-} */
+
 
 
 .nav-link {
@@ -153,3 +146,10 @@ menu.active {
   background-color: #AEC6CF;
 }
 
+/* Media query change to bigger screen */
+/* .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+} */

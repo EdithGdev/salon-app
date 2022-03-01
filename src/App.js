@@ -1,15 +1,23 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
+
 
 function App() {
+// target has it as null. fix
+ useEffect(() => {
+      const hamburger = document.querySelector('.hamburger')
+      console.log(hamburger)
+      const menu = document.querySelector('.menu')
 
-  const hamburger = document.querySelector('.hamburger')
-  const menu = document.querySelector('.menu')
-  console.log(hamburger)
-  hamburger.addEventListener('click', () =>{
-    hamburger.classList.toggle('active');
-    menu.classList.toggle('active');
+      console.log(menu)
+      hamburger.addEventListener('click', () =>{
+      hamburger.classList.toggle('active');
+      console.log('menu')
+      menu.classList.toggle('active');
   })
+  });
+
+  // 
   
   return (
     <div className="app">
@@ -24,7 +32,7 @@ function App() {
           </li>
           <li className='nav-item'>
             <a href='#' className='nav-link'>Contact</a>
-          </li>
+          </li>\
           
         </ul>
         <div className='hamburger'>
