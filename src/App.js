@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 
 function App() {
 // target has it as null. fix
- useEffect(() => {
+useEffect(() => {
       const hamburger = document.querySelector('.hamburger')
       console.log(hamburger)
       const menu = document.querySelector('.menu')
@@ -43,8 +43,29 @@ function App() {
       </nav>
       <div className='specialty-info'>
         <div className='bridal-party-info'>
-          <h3>HELLOO</h3>
-          <p>yes</p>
+          <h4>Bridal Party Hair & Makeup Pricing *</h4>
+          <table>
+          <tr>
+          <td>Bride (trial included)</td>
+          <td>$450</td>
+          </tr>
+          <tr>
+          <td>Mother of Bride</td>
+          <td>$160</td>
+          </tr>
+          <tr>
+          <td>Bridesmaid</td>
+          <td>$195</td>
+          </tr>
+          <tr>
+          <td>Flower Girl(under 10 yrs)</td>
+          <td>$70</td>
+          </tr>
+          <tr>
+          <td>Flower Girl(10-15 yrs)</td>
+          <td>$120</td>
+          </tr>
+          </table>
         </div>
         <div className='about-me'></div>
         <div className='services'></div>
