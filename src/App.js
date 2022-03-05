@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useEffect } from 'react';
+import ImageSlider from './components/ImageSlider';
 
 
 function App() {
@@ -67,7 +68,7 @@ useEffect(() => {
           </tr>
           </table>
         </div>
-        <div className='about-me'></div>
+        <div className='about-me'><ImageSlider /></div>
         <div className='services'></div>
         <div className='bottom'></div>
       </div>

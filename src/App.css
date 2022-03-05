@@ -126,8 +126,8 @@ a {
 
 .about-me {
   height:220px;
-  background-color: red;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSig9q5p0ptlG5vrF84qclCw_J0x07-c0qm3Q&usqp=CAU');
+  background-color: pink;
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSig9q5p0ptlG5vrF84qclCw_J0x07-c0qm3Q&usqp=CAU'); */
   background-size: 100%;
 }
 
