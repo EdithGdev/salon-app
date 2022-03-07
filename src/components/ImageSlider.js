@@ -26,7 +26,13 @@ return (
     <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
 {SliderData.map((slide, index) => {
     return(
-        <img src={slide.image} alt ='hair' className='image' />
+    <div 
+    className= {index === current ? 'slide active' : 'slide'} 
+    key={index}
+    >
+        {index === current &&(
+        <img src={slide.image} alt ='hair' className='image' />)}
+    </div>   
     )
 
 })}
