@@ -5,6 +5,7 @@
 
 html {
   overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 .app {
@@ -171,6 +172,7 @@ a {
   height:220px;
   background-color: black;
 }
+
 .book-now-button {
   height:75px;
   width: 100%;
@@ -181,8 +183,6 @@ a {
   justify-content: center;
   align-items: center;
   color: white;
-
-
 }
 
 .bottom {
