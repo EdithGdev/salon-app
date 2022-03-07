@@ -69,7 +69,7 @@ useEffect(() => {
           </tr>
           </table>
         </div>
-        <div className='about-me'><ImageSlider slides={SliderData}/></div>
+        <div className='about-me'><ImageSlider className='image-slider' slides={SliderData}/></div>
         <div className='services'></div>
         <div className='bottom'></div>
       </div>

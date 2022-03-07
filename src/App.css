@@ -128,21 +128,28 @@ a {
 .about-me {
   height:220px;
   background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSig9q5p0ptlG5vrF84qclCw_J0x07-c0qm3Q&usqp=CAU'); */
-  background-size: 100%;
+  /* background-size: 100%; */
 }
 
 .slider {
-  position: relative;
-  height: 100vh;
+  /* position: relative; */
+  /* height: 100vh; */
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* .image-slider {
+  width: 80%;
+  background-color: bisque;
+} */
 .image {
-  width: 1000px;
-  height: 600px;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -167,6 +174,19 @@ a {
   cursor: pointer;
   user-select: none;
 }
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+
+}
+
 
 .services {
   height:220px;
